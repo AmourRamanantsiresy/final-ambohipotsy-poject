@@ -22,14 +22,14 @@
             $name = $filename.".".$ext;
         
             // Check if file already exists
-            if (file_exists($path_filename_ext)) {
-            echo "";
-            }else{
-            move_uploaded_file($temp_name,$path_filename_ext);
-            }
+            // if (file_exists($path_filename_ext)) {
+            // echo "";
+            // }else{
+            // move_uploaded_file($temp_name,$path_filename_ext);
+            // }
             //$res = pg_send_query($dbconn,"insert into hi values('$name', pg_read_binary_file('$path_filename_ext')::bytea);");
             //echo $res;    
-            $file_name = $path_filename_ext;
+            $file_name = $temp_name;
 
             $img = fopen($file_name, 'r') or die("cannot read image\n");
             $data = fread($img, filesize($file_name));
@@ -51,9 +51,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Upload successfully</title>
+    <style>
+        body{
+            overflow : hidden;
+            height : 100vh;
+            width : 100vw;
+            display : flex;
+            align-items: center;
+            justify-content : center;
+        }
+    </style>
 </head>
 <body>
     <h1>Hisaorana ianao nanaiky niara niasa taminay.</h1>
+    <script>
+        location.href = "https://ambohipotsy.herokuapp.com/"
+    </script>
 </body>
 </html>

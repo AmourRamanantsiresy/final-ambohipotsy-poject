@@ -68,11 +68,17 @@ function close() {
 id("btn-txt").addEventListener("click", () => {
     let texte = id("texte");
     if (texte.length != 0) {
+        id("cover").classList.add("notTouche");
+        id("cover").innerHTML = "<div class='wait'></div>";
         $.post("server.php", {
             type: "txt",
             txt: texte.value
         }, () => {
-            alert("merci");
+            id("cover").innerHTML = "<h3 class='popup'>Isaorana be dia be ianao nizara fahalalàna taminay :)</h3>";
+            setTimeout(() => {
+                id("cover").className = "";
+                id("cover").innerHTML = "";
+            }, 3000)
         })
     }
     texte.value = "";
