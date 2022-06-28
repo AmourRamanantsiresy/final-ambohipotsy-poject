@@ -91,20 +91,20 @@
                 <div class="arrow  arrow1" id="arrow"></div>
             </div>
             <div class="container h0" id="bieContainer">
-                <p>Togasoa eto amin'ny tranokala fanangonana tahirin-kevitra</p>
-                <p>Ahoana ny fampiasa azy ?</p>
+                <p>Tongasoa eto amin'ny tranokala fanangonana tahirin-kevitra momba ny fiangonana Ambohipotsy</p>
+                <p>Ahoana ny fampiasàna azy?</p>
                 <p>
-                    Ireo bokitra roa ery ambony avanana no ampiasaina rehefa andefa tahiry.
+                    Ireo bokitra roa ery ambony havanana no ampiasaina rehefa andefa tahiry.
                     <br> Toy izao no anaovana azy :
                 </p>
                 <p>
-                    - Raha ohatra ka anoratra na hitantara zavatra an-tsoratra dia, tsindrio ilay bokitra
+                    - Raha ohatra ka anoratra na hitantara zavatra an-tsoratra dia tsindrio ilay bokitra
                     <span>Soratra</span> ery ambony avanana. <br>
-                    Misy toerana (efa-joro miloko fotsy ahitana ny sotratra hoe <span>"Toeran'ny Soratra"</span>) efa
+                    Misy toerana (efa-joro miloko fotsy ahitana ny sotratra hoe : <span>"Toeran'ny Soratra"</span>) efa
                     voatokana handikàna ilay tanatara ao.
-                    <br><br>- Raha ohatra ka andefa tahirin-kevitra (.docx, .pdf, ...) na sary (.png, .jpg, ...) dia
+                    <br><br>- Raha ohatra kosa ka andefa tahirin-kevitra (.docx, .pdf, ...) na sary (.png, .jpg, ...) dia
                     tsindrio ilay
-                    bokitra <span>Tahiry</span> ery ambony avanana.
+                    bokitra <span>Tahiry</span> ery ambony havanana.
                     Misy toerana (efa-joro miloko fotsy ) efa voatokana handikàna ilay tanatara ao.
                 </p>
             </div>
